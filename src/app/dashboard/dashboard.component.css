@@ -1,0 +1,44 @@
+/* mat-card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+} */
+
+mat-card{
+    border-radius: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.area{
+    margin: 20px 0px;
+}
+
+
+@media (max-width: 947px){
+    .cards{
+        width: 100%;
+        display: flex;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .cards{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }    
+    mat-card{
+        margin-bottom: 20px;
+        width: 270px;
+    }
+}

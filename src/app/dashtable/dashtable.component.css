@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    background-color: #371464;
+    /* background-color: #424242; */
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+th{
+    color: #C3C7C7;
+}
+
+td{
+    color: #FFFFFF;
+    background-color: #424242;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}

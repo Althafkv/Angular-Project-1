@@ -1,0 +1,35 @@
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 800px){
+    table{
+        width: 100%;
+    }
+}
+
+mat-paginator{
+    padding: 6px;
+    background-color: #cac6c6;
+}
+
+
+table{
+    background-color: #424242;
+}
+
+th{
+    color: #C3C7C7;
+}
+
+td{
+    color: white;
+}
+
+.mat-elevation-z8{
+    border-radius: 10px;
+    overflow: hidden;
+}
